@@ -20,10 +20,10 @@ int servoPos2 = 90;
 int servoPos3 = 90;
 int servoPos4 = 90;
 
-float minGoalDistance1 = 6.0; // Set the minimum goal distance for sensor 1 to 6cm
-float maxGoalDistance1 = 8.0; // Set the maximum goal distance for sensor 1 to 7.5cm
-float minGoalDistance2 = 7.0; // Set the minimum goal distance for sensor 2 to 8cm
-float maxGoalDistance2 = 9.0; // Set the maximum goal distance for sensor 2 to 9.5cm
+float minGoalDistance1 = 4.0; // Set the minimum goal distance for sensor 1 to 6cm
+float maxGoalDistance1 = 5.0; // Set the maximum goal distance for sensor 1 to 7.5cm
+float minGoalDistance2 = 5.0; // Set the minimum goal distance for sensor 2 to 8cm
+float maxGoalDistance2 = 6.0; // Set the maximum goal distance for sensor 2 to 9.5cm
 
 void setup() {
 pinMode(TRIG_PIN1, OUTPUT);
