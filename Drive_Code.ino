@@ -1,10 +1,10 @@
-const int leftMotorForward = 9;
-const int leftMotorBackward = 10;
-const int rightMotorForward = 11;
-const int rightMotorBackward = 12;
+const int leftMotorForward = 2;
+const int leftMotorBackward = 3;
+const int rightMotorForward = 4;
+const int rightMotorBackward = 5;
 
-int leftTrigger = 2;
-int rightTrigger = 3;
+int leftTrigger = 8;
+int rightTrigger = 9;
 
 void setup() {
   Serial.begin(9600);
@@ -27,26 +27,35 @@ void loop() {
   
   Serial.print("Right: ");
   Serial.println(rightValue);
-  
-  if (leftValue > 1500) {
-    digitalWrite(leftMotorForward, HIGH);
+   if (rightValue > 1700) {
+     digitalWrite(leftMotorForward, HIGH);
     digitalWrite(leftMotorBackward, LOW);
-  } else if (leftValue < 1500) {
-    digitalWrite(leftMotorForward, LOW);
-    digitalWrite(leftMotorBackward, HIGH);
-  } else {
-    digitalWrite(leftMotorForward, LOW);
-    digitalWrite(leftMotorBackward, LOW);
-  }
-  
-  if (rightValue > 1500) {
-    digitalWrite(rightMotorForward, HIGH);
-    digitalWrite(rightMotorBackward, LOW);
-  } else if (rightValue < 1500) {
     digitalWrite(rightMotorForward, LOW);
     digitalWrite(rightMotorBackward, HIGH);
+  } else if (rightValue < 1200) {
+    digitalWrite(leftMotorForward, LOW);
+    digitalWrite(leftMotorBackward, HIGH);
+    digitalWrite(rightMotorForward, HIGH);
+    digitalWrite(rightMotorBackward, LOW);
   } else {
+   
+    if (leftValue > 1700) {
+    digitalWrite(leftMotorForward, LOW);
+    digitalWrite(leftMotorBackward, HIGH);
     digitalWrite(rightMotorForward, LOW);
+    digitalWrite(rightMotorBackward, HIGH);
+  } else if (leftValue < 1200) {
+    digitalWrite(leftMotorForward, HIGH);
+    digitalWrite(leftMotorBackward, LOW);
+    digitalWrite(rightMotorForward, HIGH);
+    digitalWrite(rightMotorBackward, LOW);
+  } else {
+    digitalWrite(leftMotorForward, LOW);
+    digitalWrite(leftMotorBackward, LOW);
+     digitalWrite(rightMotorForward, LOW);
     digitalWrite(rightMotorBackward, LOW);
   }
+  
+  }
+  delay(10);
 }
