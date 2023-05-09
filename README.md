@@ -2,6 +2,7 @@ Project TASRC
 ![IMG-8384](https://user-images.githubusercontent.com/90796216/236971352-8e43199f-4bd9-4b5a-b9b0-b4fc07e1d22c.JPG)
 
 Designed and Engineered by: Chase Smith
+
 Coded and Reported by: Chase Smith
 
 
@@ -13,8 +14,12 @@ With Project TASRC, I had a vision, A vision of a car that could drive almost an
 The system uses two ultrasonic sensors connected to an arduino mega, each sensor controls two servos, two for the front, and two for the rear. The servos control a double wishbone suspension arm, this system is useful because no matter how the suspension moves, the wheels will stay vertical. If I don’t have this system, the more you raise and lower the suspension, the more the wheels would tilt in or out, effectively giving you camber, which for a car meant to crawl over things isn't the best idea.
 
 The whole car is made up of custom made parts, the only structural parts that aren’t printed are the main chassis, and the upper chassis. The main chassis is made of an aluminum alloy bar that gives many mounting holes. The upper chassis is just a cut piece of cardboard, it is not structural, it is only used as a place to put micro controllers and battery packs. Every 3D printed part (with the exception of the ultrasonic sensor holders) was designed and printed by me on my basic Ender 3 3D printer. Every part is printed in PLA. The parts are printed in PLA so that they are cheap, reliable, and easy to print. The infill is low where it needs to be to support structure. But low where it doesn’t need to be as strong, all this combined means that I can have lots of prints for a low gram count. 
+F
 
-	
+Design Evaluation.
+
+If I'm being strict on the design, it has a lft left to be desired. Originally the plan was to have an actual mechanical steering system, there are 3d designs in the 3D files folder for a mechanical steering assembly. The design could be reformed, with lifted headers, full soldering of every wire, not using cardboard. But due to my time and project limitations, I think it turned out very good. If I could do this project again without my previoud limitations, I would try to 3D print every part that could be printed. For Example: No cardboard, instead a 3D Printed Slab, no metal for motor or chassis, EVERYTHING 3D printed. I will most likely revise this in the future. 
+
 Functional Categories
 
 Output Display: The output display is very simple, there are 2 LEDS, 1 green one, and one red one. The 1 green one turns on when the suspension system is not moving, sensing, but not moving, meaning that it has reached an acceptable range. The red LED is built into the rc receiver, it shows when the remote is connected to the car, and when input is being given.
