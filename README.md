@@ -40,39 +40,7 @@ Logic, Processing, and Control: The logic behind the suspension sounds simple, b
 Parts List
 
 
-Part
-Model #
-Source
-Arduino Mega
-EL-CB-002
-Amazon
-Arduino Nano
-ATmega328P
-Amazon
-Motor Controller
-L298N
-Amazon
-Ultrasonic Sensor
-HC-SR04
-Amazon
-Arduino Motors+Tires
-FZ
-Amazon
-1123 Series Pattern Plate
-1123-0043-0096
-GoBilda
-Power Pack
-ZRM & E
-Amazon
-FLYSKY Radio 
-FS-i6X
-Amazon
-Kyosho Receiver
-82135 Syncro KR-331
-Kyosho America
-Hobby Shocks
-94166
-Amazon
+<img width="614" alt="Screenshot 2023-05-09 at 11 32 07 PM" src="https://github.com/Cgsmith24/Robotics-Capstone/assets/90796216/ad120a32-8ebd-45d2-bf71-2a6b10015b23">
 
 
 
