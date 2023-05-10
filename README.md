@@ -64,22 +64,39 @@ Build it Yourself
 What you need:
 
 A 3D Printer capable of printing PLA
+
 200 Grams of PLA 3d Printing materials
+
 A computer capable of a 3D slicer, and capable of Arduino IDE.
+
 Solder
+
 Soldering Iron
+
 4 standard size servos
+
 4 Arduino Motors and wheels
+
 L298N Motor Controller
+
 1 Arduino Mega 2560 (A normal UNO may work but not guaranteed)
+
 1 Arduino Nano
+
 2 5 AA power packs
+
 2 HC-SR04 Ultrasonic sensors
+
 Any RC remote and receiver
+
 A piece of metal/plastic to make the main chassis
+
 Cardboard
+
 Hot Glue
+
 Tons of wires
+
 PATIENCE!!!
 
 Step one: Printing
