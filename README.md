@@ -87,11 +87,17 @@ Step one: Printing
 Print the following parts found on my github:
 
 TASRC A-arm_fixed.stl x4
+
 TASRC Turnbuckle V2.stl x4
+
 TASRC Shock Tower V3.stl x2
+
 TASRC Rear Hub Right_fixed.stl x2
+
 TASRC Rear Hub Left_fixed.stl x2
+
 TASRC Shock Tensioner.stl x4
+
 Ultrasonic_HC-SR04_-_FOOT_MOUNT.stl x2
 
 
