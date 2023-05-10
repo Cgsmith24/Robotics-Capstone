@@ -146,6 +146,11 @@ Step 5: Testing/Trial and Error
 From this point forward, it’s just testing and trial/error. It may take lots of testing to get it to work.  But with some time and effort, I guarantee you can do it!
 
 
+Conclusion:
+
+I hope you enjoy the struggles of this project. If you have any questions about this project, Email me at Cgsmith24@weldre4.org
+
+
 
 
 
