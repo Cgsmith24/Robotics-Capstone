@@ -40,9 +40,6 @@ Logic, Processing, and Control: The logic behind the suspension sounds simple, b
 Parts List
 
 
-<img width="614" alt="Screenshot 2023-05-09 at 11 32 07 PM" src="https://github.com/Cgsmith24/Robotics-Capstone/assets/90796216/ad120a32-8ebd-45d2-bf71-2a6b10015b23">
-
-
 
 
 Lessons Learned
@@ -55,6 +52,7 @@ A single battery pack can only do so much. I had to use 2 of them to get the pro
 Ultrasonic sensors are actually incredibly accurate, any minor movement would cause them to tell the servos to readjust, and that would just cause a chain reaction and make the robot go crazy, so I added an acceptable distance for the sensors to read, which fixed the problem. 
 
 
+<img width="591" alt="Screenshot 2023-05-09 at 11 33 11 PM" src="https://github.com/Cgsmith24/Robotics-Capstone/assets/90796216/3862b846-86c0-4c0c-a541-d2f2623525da">
 
 
 
