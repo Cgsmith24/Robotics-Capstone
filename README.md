@@ -148,8 +148,7 @@ From this point forward, it’s just testing and trial/error. It may take lots o
 
 Conclusion:
 
-I hope you enjoy the struggles of this project. If you have any questions about this project, Email me at Cgsmith24@weldre4.org
-
+I hope you enjoy the struggles of this project. If you have any questions about this project, Email me at chasegsmith22@gmail.com
 
 
 
